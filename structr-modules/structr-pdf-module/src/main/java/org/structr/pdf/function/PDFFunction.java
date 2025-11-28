@@ -284,7 +284,7 @@ public class PDFFunction extends Function<Object, Object> {
 						}}
 						""", """
 						Dynamic file which automatically downloads
-						(using 3 pages: 'pdf-export-main-page', 'pdf-export-header-page' and 'pdf-export-footer-page') 
+						(using 3 pages: 'pdf-export-main-page', 'pdf-export-header-page' and 'pdf-export-footer-page').
 						""")
 		);
 	}

@@ -61,7 +61,7 @@ public class PrintFunction extends CoreFunction {
 	public List<Usage> getUsages() {
 		return List.of(
 			Usage.structrScript("Usage: ${print(objects...)}. Example: ${print(this.name, 'test')}"),
-			Usage.javaScript("Usage: ${{ $.print(objects...)}}. Example: ${{ $.print(Structr.get('this').name, 'test') }}")
+			Usage.javaScript("Usage: ${{ $.print(objects...)}}. Example: ${{ $.print($.get('this').name, 'test') }}")
 		);
 	}
 
